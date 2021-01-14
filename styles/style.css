@@ -87,7 +87,7 @@ body{
 .whatsOnSpotifyDiv {
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 30%;
     padding: 10px;
     text-align: center;
     margin: auto;
@@ -114,6 +114,7 @@ body{
 .yeezyAs {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background-color: #00B172;
     color: #FFF;
 }
