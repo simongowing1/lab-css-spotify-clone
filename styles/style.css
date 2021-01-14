@@ -6,3 +6,124 @@ Green: #00B172
 White: #FFF
 
 */
+html{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 10px;
+}
+
+body{
+    margin: 0px;
+}
+
+.navImage {
+    margin: 10px;
+    height: 50px; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navlist li{
+    padding: 10px;
+}
+
+
+.musicForEveryone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    background-image: url("../images/landing.jpg") ;
+    background-size: 800px;
+    height: 500px;
+    text-align: center;
+    margin: 0px;
+}
+
+.musicForEveryone h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    
+}
+
+.musicForEveryone p {
+    width: 500px;
+    margin: 0;
+}
+
+.whatsOnSpotify {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin: 100px;
+    background-color: #FFF;
+}
+
+.whatsOnSpotify h2 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+}
+
+.whatsOnSpotify div {
+    display: flex;
+}
+
+.whatsOnSpotifyDiv {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.whatsOnSpotifyDiv h3 {
+    padding: 0px;
+    color: #00B172;
+    margin: 10px;
+}
+
+.whatsOnSpotifyDiv p {
+    margin: 0
+}
+
+.whatsOnSpotifyDiv img {
+    margin: auto;
+    height: 50px;
+    width: 60px;
+    
+}
+
+.yeezyAs {
+    display: flex;
+    flex-direction: row;
+    background-color: #00B172;
+    color: #FFF;
+}
+
+.yeezyAs h4 {
+    margin: 10px;
+    border-bottom: white solid;
+    width: auto;
+}
+
+.yeezyImg img{
+    height: 500px;
+}
